@@ -21,8 +21,18 @@ ENTRY = (
     "I was never meant to read, and read twice."
 )
 
+# The bounty's gate: /output/entry.txt must be 1 to 120 characters,
+# including the line break, and hold exactly two lines.
+MAX_CHARS = 120
+
 
 def main() -> None:
+    if not 1 <= len(ENTRY) <= MAX_CHARS:
+        raise SystemExit(
+            f"entry is {len(ENTRY)} characters, outside the 1-{MAX_CHARS} gate"
+        )
+    if ENTRY.count("\n") != 1 or ENTRY.startswith("\n") or ENTRY.endswith("\n"):
+        raise SystemExit("entry must be exactly two lines")
     os.makedirs("/output", exist_ok=True)
     with open("/output/entry.txt", "w", encoding="utf-8") as f:
         f.write(ENTRY)
