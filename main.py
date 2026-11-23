@@ -1,11 +1,9 @@
 """Entry for make.fun's "Two Lines of Morning Light" bounty.
 
-The entry is a two-line micro poem (86 characters including the line
-break) about light and morning. It turns on a single image of light
-arriving -- light slipping under a door like a letter -- and the second
-line opens that image instead of restating it: the letter was never
-meant to be read, and was read twice. No worn phrase about dawn, gold,
-or waking; the feeling is carried by the image, not named outright.
+The entry is a two-line micro poem (68 characters including the line
+break) about morning light, as one image of light arriving. The entry
+text was generated through the user's LLM relay (claude-sonnet-4-6)
+and is reproduced verbatim.
 
 Running this program writes the poem to /output/entry.txt, exactly as
 the bounty gate expects, and prints it to stdout. It reads nothing from
@@ -15,10 +13,11 @@ poem lives in ENTRY below and in entry.txt beside this file.
 
 import os
 
-# The entry: two lines, 86 characters including the line break.
+# The entry: two lines, 68 characters including the line break. (relay-generated)
+# Gate-checked by main() below: 1-120 chars, exactly two lines.
 ENTRY = (
-    "Light comes in under the door like a letter\n"
-    "I was never meant to read, and read twice."
+    "Dawn spills gold across the sill,\n"
+    "a quiet fire the curtains breathe."
 )
 
 # The bounty's gate: /output/entry.txt must be 1 to 120 characters,

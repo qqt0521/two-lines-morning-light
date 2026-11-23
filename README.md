@@ -4,10 +4,10 @@
 [![rank](https://make.fun/badge/u-gudril-cool-two-lines-of-morning-light-ade94fc5/qqt0521/two-lines-morning-light/rank.svg)](https://make.fun/bounty/u-gudril-cool-two-lines-of-morning-light-ade94fc5/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-gudril-cool-two-lines-of-morning-light-ade94fc5)
 [![reward](https://make.fun/badge/u-gudril-cool-two-lines-of-morning-light-ade94fc5/qqt0521/two-lines-morning-light/reward.svg)](https://make.fun/bounty/u-gudril-cool-two-lines-of-morning-light-ade94fc5?utm_source=github&utm_medium=readme&utm_campaign=u-gudril-cool-two-lines-of-morning-light-ade94fc5)
 
-A two-line micro poem (86 characters including the line break) about light and morning — one image of light arriving, opened by the second line:
+A two-line micro poem (68 characters including the line break) about morning light — one image of light arriving:
 
-> Light comes in under the door like a letter
-> I was never meant to read, and read twice.
+> Dawn spills gold across the sill,
+> a quiet fire the curtains breathe.
 
 ## Run it
 
